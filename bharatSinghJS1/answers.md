@@ -9,15 +9,11 @@
 3. List the 5 primitive types in JavaScript. 
 
 	The 5 primitive types are:
-	-String
-	-Number
-	-Boolean
-	-Null
-	-Undefined
+	String, Boolean, Number, Null, Undefined
 
 4. Once a variable has been defined, can its value be changed?
 
-	c. It depends
+	c. It depends.
 	A variable declared locally can't be changed globally without redeclaring it with 'var'.
 
 
