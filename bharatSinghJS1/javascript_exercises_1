@@ -1,0 +1,66 @@
+// Exercises
+
+// 1. Write two small JavaScript statements and add comments above each describing the code.
+// Declaring a variable named 'x'.
+var x;
+
+// Assigning a numerical value of 7 to variable 'x'.
+x = 7;
+
+// 2. Take a look at the following code example and add semicolons in where they belong.
+// var firstName = "Jack"
+// var lastName = "Smith"
+
+// function greet (first, last) {
+//   return "Good morning, " + first + " " last
+// }
+
+// greet(firstName, lastName)
+
+var firstName = "Jack";
+var lastName = "Smith";
+
+function greet (first, last) {
+  return "Good morning, " + first + " " + last;
+}
+
+greet(firstName, lastName);
+
+// 3. Take a look at the examples below and identify what data type the variable result evaluates to for each.
+// a: The cat jumped over the moon
+var result = "The cat jumped over the moon";
+
+// b: 28
+var result = 55 - 27;
+
+// c: true
+var result = 75 > 55;
+
+// d: undefined
+var data;
+var result = data;
+
+// e: -6544.432
+var result = -6544.432;
+
+// 4. Store the number values 50, 100, and 500 each in a separate variable. Then add the 3 variables using + and
+//  assign that sum to a fourth variable. Finally print the sum using console.log.
+
+// here's the first variable assignment you'll need
+// you'll need to to assign the other 2 numbers yourself
+var firstNumber = 50;
+var secondNumber = 100;
+var thirdNumber = 500;
+// add them together using + and store them in the sum variable
+var sum = firstNumber + secondNumber + thirdNumber;
+
+// finally, print the sum
+console.log(sum);
+
+
+
+
+
+
+
+
