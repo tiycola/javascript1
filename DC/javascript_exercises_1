@@ -1,0 +1,48 @@
+Exercise 1
+
+//The first of two statements in JavaScript.
+var stat1 = "This is the first statement,";
+//The second of two statements in JavaScript.
+var stat2 = " and this is the second.";
+
+Exercise 2
+
+var firstName = "Jack";
+var lastName = "Smith";
+
+function greet (first, last) {
+  return "Good morning, " + first + " " last;
+}
+
+greet(firstName, lastName);
+
+Exercise 3
+
+// a: String
+var result = "The cat jumped over the moon";
+
+// b: Number
+var result = 55 - 27;
+
+// c: Boolean
+var result = 75 > 55;
+
+// d: Undefined
+var data;
+var result = data;
+
+// e: Number
+var result = -6544.432;
+
+Exercise 4
+
+// here's the first variable assignment you'll need
+// you'll need to to assign the other 2 numbers yourself
+var firstNumber = 50;
+var secondNumber = 100;
+var thirdNumber = 500;
+// add them together using + and store them in the sum variable
+var sum = firstNumber + secondNumber + thirdNumber;
+
+// finally, print the sum
+console.log(sum);
